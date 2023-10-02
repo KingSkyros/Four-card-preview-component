@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0; 
@@ -17,16 +19,25 @@
 
 body{ 
     background-color: var(--background-color); 
+    font-family: 'Poppins' , cursive;
+}
+
+.intro-header-two{ 
+    font-weight: 600;
 }
 
 h1{ 
     color: var(--headers-color);
     padding-top: 1%;
+    font-weight: 400;
+    font-size: 2em;
 }
 
 p{
     color: var(--paragraphs-color);
     padding-top: 2%;
+    font-weight: 200;
+    font-size: 1em;
 }
 
 .intro-p{ 
@@ -90,10 +101,16 @@ img{
 
 @media (min-width:1170px) {
     .calculator{
-        margin-left: 1em ;
+        margin-left: 50em ;
     }
 
     .supervisor{
-        margin-left: 50em;
+        position: absolute;
+        margin-top: 25em;
+    }
+
+    .calculator{
+        position: absolute;
+        margin-top: 25em;
     }
 }
