@@ -24,6 +24,7 @@ body{
 
 .intro-header-two{ 
     font-weight: 600;
+    font-size: 2em;
 }
 
 h1{ 
@@ -40,9 +41,7 @@ p{
     font-size: 1em;
 }
 
-.intro-p{ 
-    width: 30rem;
-}
+
 
 main{ 
     display: flex;
